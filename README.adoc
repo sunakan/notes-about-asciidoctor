@@ -49,3 +49,15 @@ IMPORTANT: => IMPORTANT:
 WARNING: => WARNING:
 
 CAUTION: => CAUTION:
+
+## 第一段落
+
+ [.lead]
+ この[.lead]の直下は文字が大きくなる
+
+[.lead]
+こんな感じ +
+1行目に改行記号を入れてからの2行目は?
+
+比較用:文字列 +
+比較用:文字列 => 変わらない? 1行目じゃないと駄目?
