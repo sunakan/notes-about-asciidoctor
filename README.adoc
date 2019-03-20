@@ -134,3 +134,11 @@ Githubの表示では変わらない...
 = タイトルタイトル
 = タイトルタイトル
 = タイトルタイトル
+
+## 著者
+
+ 名前 <sunakan03@gmail.com>
+ 名前1 <sunakan03@gmail.com>; 名前2 <sunakan03@gmail.com>; 名前3 <sunakan03@gmail.com>;
+
+名前 <sunakan03@gmail.com> +
+名前1 <sunakan03@gmail.com>; 名前2 <sunakan03@gmail.com>; 名前3 <sunakan03@gmail.com>;
