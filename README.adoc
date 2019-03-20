@@ -98,3 +98,10 @@ Githubの表示では変わらない...
 
 普通 [.underline]#下線下線下線下線下線# 普通 +
 [.underline]#Github# の表示では変わらない...
+
+## 打ち消し線
+
+ スペースと[.line-through]#で始まり#とスペースで囲む(" [.line-through]"と"# ")
+
+普通 [.line-through]#打ち消し線打ち消し線# 普通 +
+Githubの表示では変わらない...
