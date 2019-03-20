@@ -37,3 +37,15 @@
   2つ入れたら?
   2つ入れたら?
   2つ入れたら? => 変わらないかも
+
+## 脚注(Admonition)
+
+NOTE: 特定の文字列に:(コロン)をつける => NOTE:
+
+TIP: => TIP: GitHubだとアイコンは出ない...
+
+IMPORTANT: => IMPORTANT:
+
+WARNING: => WARNING:
+
+CAUTION: => CAUTION:
