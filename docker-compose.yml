@@ -1,0 +1,25 @@
+---
+
+version: "3.7"
+
+services:
+  datastore:
+    image: busybox
+    volumes:
+      - bundle_install:/app/vendor/bundle
+
+  app:
+    working_dir: /app
+    image: notes-about-asciidoctor_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - bundle_install:/app/vendor/bundle
+    environment:
+      - TZ=Asia/Tokyo
+
+volumes:
+  bundle_install:
+    driver: local
