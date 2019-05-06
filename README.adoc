@@ -1,1 +1,11 @@
-# Notes about asciidoctor
+= Notes about asciidoctor
+
+* フォントは各自DL or asciidoctor gemからcp
+
+
+== License
+
+* ソースコードは MITライセンス で利用できます。
+* 文章内容は link:https://creativecommons.org/licenses/by-nc/4.0/[https://creativecommons.org/licenses/by-nc/4.0/] で利用できます。
++
+image:https://i.creativecommons.org/l/by-nc/4.0/88x31.png[CC BY-NC 4.0, link="https://creativecommons.org/licenses/by-nc/4.0/"]
