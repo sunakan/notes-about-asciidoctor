@@ -1,0 +1,9 @@
+== 準備
+
+:source-highlighter: coderay
+
+[source,Dockerfile,indent=0]
+.Dockerfile
+----
+include::../Dockerfile[]
+----

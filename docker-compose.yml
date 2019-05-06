@@ -3,11 +3,6 @@
 version: "3.7"
 
 services:
-  datastore:
-    image: busybox
-    volumes:
-      - bundle_install:/app/vendor/bundle
-
   app:
     working_dir: /app
     image: notes-about-asciidoctor_app
@@ -16,10 +11,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/app
-      - bundle_install:/app/vendor/bundle
+      - ~/bundle-install:/app/vendor/bundle # localキャッシュ用
     environment:
       - TZ=Asia/Tokyo
-
-volumes:
-  bundle_install:
-    driver: local

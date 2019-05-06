@@ -1,0 +1,24 @@
+//=============================================================================
+// スタイルファイル、アセットの関連付け
+//=============================================================================
+:lang: ja
+:doctype: book
+:description:
+:docname: DocumentName
+:imagesdir: ../images
+//:icons: icons
+:iconsdir: ../images/icons
+:pdf-fontsdir: fonts
+:pdf-stylesdir: style
+:pdf-style: my-theme.yml
+//:title-logo-image: image:theme/logo.png[]
+//:title-page-background-image: image:theme/background.jpg[]
+
+// タイトル
+= Asciidocを始めよう
+
+include::./introduction.adoc[]
+
+include::./preparation.adoc[]
+
+include::./convert2pdf.adoc[]
