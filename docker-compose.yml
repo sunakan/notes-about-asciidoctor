@@ -1,0 +1,16 @@
+---
+
+version: "3.7"
+
+services:
+  app:
+    working_dir: /app
+    image: notes-about-asciidoctor_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - ~/bundle-install:/app/vendor/bundle # localキャッシュ用
+    environment:
+      - TZ=Asia/Tokyo
